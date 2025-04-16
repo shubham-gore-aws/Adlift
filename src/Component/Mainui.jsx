@@ -14,7 +14,7 @@ import {
   CartesianGrid,
 } from "recharts";
 
-const COLORS = ["#64B5F6", "#4DB6AC", "#FFB74D", "#E57373", "#9575CD"]; // More vibrant color palette
+const COLORS = ["#64B5F6", "#4DB6AC", "#FFB74D", "#E57373", "#9575CD"]; 
 
 function Mainui() {
   const [name, setName] = useState("");
@@ -93,7 +93,6 @@ function Mainui() {
   return (
     <div className="font-sans antialiased bg-gradient-to-br from-gray-200 to-gray-300 py-8">
       <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-        {/* Header */}
         <div className="bg-indigo-50 py-6 px-8 border-b border-gray-200 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-semibold text-indigo-700 tracking-tight">Product Showcase</h1>
